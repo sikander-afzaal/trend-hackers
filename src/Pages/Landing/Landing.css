@@ -60,9 +60,13 @@
   color: #53b1d1;
 }
 .main-square h3 {
-  font-size: 35px;
+  font-size: 30px;
   color: white;
   text-transform: uppercase;
+  font-family: akira;
+}
+.main-square h3 span {
+  font-family: akira;
 }
 .main-square h4 {
   font-size: 22px;
@@ -93,14 +97,20 @@
   margin-bottom: 30px;
 }
 .main-square h5 {
-  font-size: 25px;
+  font-size: 18px;
   color: white;
+  font-family: akira;
 }
 .main-square h6 {
-  font-size: 35px;
+  font-size: 20px;
   letter-spacing: 1px;
   color: white;
   margin-bottom: 30px;
+  font-family: akira;
+}
+.main-square h5 span,
+.main-square h6 span {
+  font-family: akira;
 }
 .main-square h5:last-of-type {
   margin-top: 10px;
