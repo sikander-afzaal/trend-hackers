@@ -1,4 +1,6 @@
 .header-wrapp {
+  position: relative;
+  z-index: 1;
   background-color: #0e2023a3;
 }
 header {

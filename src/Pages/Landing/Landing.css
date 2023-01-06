@@ -2,6 +2,7 @@
   position: relative;
   isolation: isolate;
   padding-bottom: 20px;
+  z-index: 1;
 }
 .logo {
   width: 100%;
@@ -19,14 +20,15 @@
 }
 .landing-wrapp > img {
   position: absolute;
-  bottom: 0%;
+  bottom: 3.5%;
   left: 0%;
   width: 100%;
   object-fit: cover;
+  opacity: 0.8;
   z-index: -1;
 }
 .code {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   object-fit: cover;
