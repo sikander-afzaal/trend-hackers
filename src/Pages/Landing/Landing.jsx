@@ -55,9 +55,9 @@ const Landing = () => {
           <img src="/main-ico.png" className="logo" alt="" />
           <div className="main-square">
             <h3>
-              <span>We are</span> hackers
+              <span>We are</span> trend hackers
             </h3>
-            <h4>Trending Service</h4>
+            {/* <h4>Trending Service</h4> */}
             <p>
               We pride ourselves on being at the cutting edge of each and every
               guerilla marketing campaign technique implementable to baffle and
