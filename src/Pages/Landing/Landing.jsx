@@ -1,10 +1,12 @@
 import "./Landing.css";
+import { MatrixRainingLetters } from "react-mdr";
 
 const Landing = () => {
   return (
     <div className="container landing-wrapp">
       <img src="/BACKGROUND LAZERS.png" alt="" />
-      <img src="/code.png" className="code" alt="" />
+      <MatrixRainingLetters key="foo-bar" custom_class="code" />
+      {/* <img src="/code.png" className="code" alt="" /> */}
       <div className="landing-div">
         <img src="/main-ico.png" className="logo" alt="" />
         <div className="main-square">

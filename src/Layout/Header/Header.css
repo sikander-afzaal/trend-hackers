@@ -32,4 +32,10 @@ nav a {
   header {
     flex-direction: row-reverse;
   }
+  nav {
+    padding-top: 5px;
+  }
+  nav a {
+    line-height: 1;
+  }
 }
