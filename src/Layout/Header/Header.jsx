@@ -1,11 +1,19 @@
+import { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [headerToggle, setHeaderToggle] = useState(false);
   return (
     <div className="container header-wrapp">
+      {headerToggle && <div className="overlay"></div>}
       <header>
-        <img src="/STACK LINE.png" alt="" />
-        <nav>
+        <img
+          onClick={() => setHeaderToggle((prev) => !prev)}
+          src="/STACK LINE.png"
+          className="header-toggle"
+          alt=""
+        />
+        <nav className={headerToggle ? "active-side" : ""}>
           <a href="#">Summary</a>
           <a href="#">Contact</a>
           <a href="#">Links</a>

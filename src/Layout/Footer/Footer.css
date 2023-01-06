@@ -43,3 +43,8 @@ footer img {
 .social svg {
   color: #35555d;
 }
+@media screen and (max-width: 500px) {
+  .foot-wrapp .bg {
+    transform: translateX(-55%);
+  }
+}

@@ -16,28 +16,55 @@ header > img {
   max-width: 80px;
   object-fit: contain;
 }
+.header-toggle {
+  display: block;
+  position: relative;
+  z-index: 103;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
 nav {
-  display: flex;
-  justify-content: center;
+  position: fixed;
+  left: -800px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a6576;
+  z-index: 102;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  display: flex;
+  gap: 40px;
+  transition: all 1s ease-in-out;
+  max-width: 500px;
+  padding-top: 160px;
+  overflow-y: auto;
+}
+.active-side {
+  left: 0;
 }
 nav a {
-  color: #2a6576;
-  font-size: 25px;
+  color: white;
+  font-size: 35px;
   text-decoration: none;
 }
 @media screen and (max-width: 500px) {
-  header > img:first-of-type {
-    display: none;
-  }
   header {
     flex-direction: row;
   }
-  nav {
-    padding-top: 5px;
-  }
+
   nav a {
+    color: white;
+    font-size: 35px;
     line-height: 1;
   }
 }
