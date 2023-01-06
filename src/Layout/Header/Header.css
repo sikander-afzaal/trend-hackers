@@ -1,0 +1,35 @@
+.header-wrapp {
+  background-color: #0e2023a3;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: var(--max);
+  padding: 20px 0px;
+}
+header > img {
+  max-width: 80px;
+  object-fit: contain;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav a {
+  color: #2a6576;
+  font-size: 25px;
+  text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  header > img:first-of-type {
+    display: none;
+  }
+  header {
+    flex-direction: row-reverse;
+  }
+}

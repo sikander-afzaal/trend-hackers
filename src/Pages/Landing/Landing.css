@@ -1,0 +1,129 @@
+.landing-wrapp {
+  position: relative;
+  isolation: isolate;
+  padding-bottom: 20px;
+}
+.logo {
+  width: 100%;
+  max-width: 600px;
+  object-fit: contain;
+}
+.landing-wrapp > img {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.code {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+}
+.landing-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--max);
+}
+.main-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background-image: url("/public/main-square.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+.main-square span {
+  color: #53b1d1;
+}
+.main-square h3 {
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+}
+.main-square h4 {
+  font-size: 22px;
+  color: white;
+  position: relative;
+  isolation: isolate;
+  margin-bottom: 30px;
+}
+.main-square h4:before {
+  content: "";
+  width: 300px;
+  height: 10px;
+  background-image: url("/public/GLOW\ LINE.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: -70%;
+  top: 30%;
+  z-index: -1;
+  transform: translateY(-50%), translateX(-50%);
+}
+.main-square p {
+  font-size: 30px;
+  color: #387d8a;
+  line-height: 1.4;
+  font-family: spartan;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+.main-square h5 {
+  font-size: 25px;
+  color: white;
+}
+.main-square h6 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 30px;
+}
+.main-square h5:last-of-type {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.main-square .white-text {
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+.end-text {
+  font-size: 30px;
+  color: #3f768d;
+  text-align: center;
+  margin-top: 10px;
+}
+@media screen and (max-width: 740px) {
+  .main-square p {
+    font-size: 20px;
+  }
+  .main-square h5 {
+    font-size: 22px;
+  }
+  .main-square h6 {
+    font-size: 27px;
+  }
+  .main-square .white-text {
+    font-size: 16px;
+  }
+  .end-text {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-square {
+    padding: 15px;
+  }
+}

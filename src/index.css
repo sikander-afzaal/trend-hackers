@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+}
+@font-face {
+  font-family: spartan;
+  src: url("/fonts/SpartanMB-Regular.otf");
+}
+@font-face {
+  font-family: akira;
+  src: url("/fonts/FontsFree-Net-Akira-Expanded-Demo.ttf");
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+}
+:root {
+  --max: 1000px;
+}
+body {
+  background-color: black;
+}
