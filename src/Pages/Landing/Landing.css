@@ -128,14 +128,18 @@
   margin-top: 10px;
 }
 @media screen and (max-width: 740px) {
+  .main-square h3 {
+    font-size: 16px;
+  }
   .main-square p {
     font-size: 20px;
   }
   .main-square h5 {
-    font-size: 22px;
+    font-size: 16px;
+    margin-bottom: 10px;
   }
   .main-square h6 {
-    font-size: 27px;
+    font-size: 16px;
   }
   .main-square .white-text {
     font-size: 16px;
