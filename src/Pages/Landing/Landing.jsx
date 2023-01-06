@@ -104,7 +104,7 @@ const Landing = () => {
               </span>
             </h5>
             <p className="white-text">
-              EMAIL INFO@TREND-HACKERS COM FOR INQUIRIES{" "}
+              EMAIL INFO@TREND-HACKERS.COM FOR INQUIRIES{" "}
             </p>
           </div>
         </div>
