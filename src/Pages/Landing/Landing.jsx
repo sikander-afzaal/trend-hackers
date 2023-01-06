@@ -55,13 +55,13 @@ const Landing = () => {
           <img src="/main-ico.png" className="logo" alt="" />
           <div className="main-square">
             <h3>
-              <span>We are</span> trend hackers
+              <span>We are</span> hackers
             </h3>
             <h4>Trending Service</h4>
             <p>
               We pride ourselves on being at the cutting edge of each and every
               guerilla marketing campaign technique implementable to baffle and
-              manipulate algorithms on all the leading crypt and social
+              manipulate algorithms on all the leading crypto and social
               platforms.
             </p>
             <p>
@@ -88,8 +88,8 @@ const Landing = () => {
             </p>
             <h5>
               <span>
-                ALL OF WHAT WE DO IS DESIGNED TO CREATE vlsosii_rry AND ONE
-                THING IS FOR CERTAIN ,{" "}
+                ALL OF WHAT WE DO IS DESIGNED TO CREATE VISIBILITY AND ONE THING
+                IS FOR CERTAIN ,{" "}
               </span>
             </h5>
             <h5>
@@ -98,13 +98,15 @@ const Landing = () => {
                 WHERE BUDGET'S ARE LOW AND EXPECTATIONS ARE HIGH.{" "}
               </span>
             </h5>
+            <h5 style={{ marginTop: "20px" }}>
+              <span>
+                THOSE WHO ARE STILL IN BUISINESS CERTAINLY LEARNED SOME THINGS{" "}
+              </span>
+            </h5>
             <p className="white-text">
               EMAIL INFO@TREND-HACKERS COM FOR INQUIRIES{" "}
             </p>
           </div>
-          <h5 className="end-text">
-            THOSE WHO ARE STILL IN BUISINESS CERTAINLY LEARNED SOME THINGS{" "}
-          </h5>
         </div>
       </div>
     </>

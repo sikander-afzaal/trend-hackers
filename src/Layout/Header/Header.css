@@ -32,7 +32,7 @@ nav a {
     display: none;
   }
   header {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   nav {
     padding-top: 5px;
