@@ -89,7 +89,7 @@ const Landing = () => {
             <h5>
               <span>
                 ALL OF WHAT WE DO IS DESIGNED TO CREATE VISIBILITY AND ONE THING
-                IS FOR CERTAIN ,{" "}
+                IS FOR CERTAIN,{" "}
               </span>
             </h5>
             <h5>
