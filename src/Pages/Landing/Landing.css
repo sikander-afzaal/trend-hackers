@@ -121,10 +121,11 @@
   margin-bottom: 20px;
 }
 .main-square .white-text {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   font-family: Bebas Neue;
   margin-top: 30px;
+  text-decoration: none;
 }
 .end-text {
   font-size: 30px;

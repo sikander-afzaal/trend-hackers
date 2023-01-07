@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Landing.css";
 
 const Landing = () => {
@@ -58,9 +59,9 @@ const Landing = () => {
                 THOSE WHO ARE STILL IN BUISINESS CERTAINLY LEARNED SOME THINGS{" "}
               </span>
             </h5>
-            <p className="white-text">
+            <Link to="/contact" className="white-text">
               Fill in the form in the menu For more information
-            </p>
+            </Link>
           </div>
         </div>
       </div>
