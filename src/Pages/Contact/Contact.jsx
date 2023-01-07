@@ -19,6 +19,7 @@ const Contact = () => {
               <label htmlFor="message">Message</label>
               <textarea placeholder="Message" id="message" />
             </div>
+            <button>Send</button>
           </form>
         </div>
       </div>
