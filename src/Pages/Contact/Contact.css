@@ -35,12 +35,12 @@
   font-family: spartan;
   line-height: 1;
   outline: none;
-  background-color: black;
+  background-color: #041112;
 }
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 1000px black inset !important;
+  -webkit-box-shadow: 0 0 0 1000px #041112 inset !important;
   -webkit-text-fill-color: #53b1d1 !important;
 }
 .input-div input::placeholder,
