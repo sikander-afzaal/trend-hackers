@@ -7,7 +7,7 @@
 }
 .logo {
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   object-fit: contain;
   margin-bottom: 0px;
   animation: bounce 2s ease-in-out infinite alternate;
@@ -63,7 +63,7 @@
   color: #53b1d1;
 }
 .main-square h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   text-transform: uppercase;
   font-family: akira;
@@ -73,7 +73,7 @@
   font-family: akira;
 }
 .main-square h4 {
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   position: relative;
   isolation: isolate;
@@ -93,7 +93,7 @@
   transform: translateY(-50%), translateX(-50%);
 }
 .main-square p {
-  font-size: 30px;
+  font-size: 25px;
   color: #387d8a;
   line-height: 1.4;
   font-family: spartan;
@@ -101,12 +101,12 @@
   margin-bottom: 30px;
 }
 .main-square h5 {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   font-family: akira;
 }
 .main-square h6 {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
   color: white;
   margin-bottom: 30px;
