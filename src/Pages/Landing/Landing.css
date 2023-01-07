@@ -3,11 +3,13 @@
   isolation: isolate;
   padding-bottom: 20px;
   /* z-index: 1; */
+  margin-top: 50px;
 }
 .logo {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   object-fit: contain;
+  margin-bottom: 50px;
   animation: bounce 2s ease-in-out infinite alternate;
 }
 @keyframes bounce {
