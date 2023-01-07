@@ -18,13 +18,13 @@ const Header = () => {
             alt=""
           />
           <nav className={headerToggle ? "active-side" : ""}>
-            <Link to="/" onClick={() => setHeaderToggle(false)} href="#">
+            <Link to="/" onClick={() => setHeaderToggle(false)}>
               Summary
             </Link>
-            <Link to="/contact" onClick={() => setHeaderToggle(false)} href="#">
+            <Link to="/contact" onClick={() => setHeaderToggle(false)}>
               Contact
             </Link>
-            <a onClick={() => setHeaderToggle(false)} href="#">
+            <a onClick={() => setHeaderToggle(false)} href="#links">
               Links
             </a>
           </nav>

@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <div className="foot-wrapp container">
+    <div id="links" className="foot-wrapp container">
       {/* <img src="/footer-bg.png" className="bg" alt="" /> */}
       <footer>
         <img src="/eyes.png" alt="" />
