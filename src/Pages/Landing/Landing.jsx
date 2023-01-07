@@ -59,7 +59,7 @@ const Landing = () => {
               </span>
             </h5>
             <p className="white-text">
-              EMAIL INFO@TREND-HACKERS.COM FOR INQUIRIES{" "}
+              Fill in the form in the menu For more information
             </p>
           </div>
         </div>
