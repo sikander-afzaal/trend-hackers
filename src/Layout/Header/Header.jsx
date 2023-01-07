@@ -1,5 +1,6 @@
-import { useState } from "react";
 import "./Header.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
@@ -17,12 +18,12 @@ const Header = () => {
             alt=""
           />
           <nav className={headerToggle ? "active-side" : ""}>
-            <a onClick={() => setHeaderToggle(false)} href="#">
+            <Link to="/" onClick={() => setHeaderToggle(false)} href="#">
               Summary
-            </a>
-            <a onClick={() => setHeaderToggle(false)} href="#">
+            </Link>
+            <Link to="/contact" onClick={() => setHeaderToggle(false)} href="#">
               Contact
-            </a>
+            </Link>
             <a onClick={() => setHeaderToggle(false)} href="#">
               Links
             </a>
